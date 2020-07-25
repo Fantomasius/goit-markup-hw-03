@@ -54,6 +54,10 @@ body {
 	list-style: none;
 }
 
+.block {
+	display: block;
+}
+
 /*Шапка сайта*/
 
 .page-header {
@@ -187,7 +191,7 @@ body {
 
 .hero-title {
 	margin-top: 0;
-	margin-bottom: 30;
+	margin-bottom: 30px;
 
 	color: var(--primary-white-color);
 	/*временный цвет фона для видимости заголовка*/
@@ -210,7 +214,7 @@ body {
 }
 
 .section.no-padding {
-	margin-top: 94;
+	margin-top: 94px;
 	margin-bottom: 0;
 }
 
@@ -285,7 +289,6 @@ body {
 }
 
 .services-item {
-	display: block;
 	width: 370px;
 }
 
